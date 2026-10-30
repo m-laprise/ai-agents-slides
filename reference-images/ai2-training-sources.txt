@@ -1,0 +1,20 @@
+Ai2 training figures collected 2026-10-29 for slide design review.
+Original figures retain their source attribution and rights.
+
+olmo3-model-flow.svg
+Source: Olmo 3 technical report, Figure 2, version 1.
+https://arxiv.org/html/2512.13961v1#S2.F2
+Original asset: https://arxiv.org/html/2512.13961v1/olmo3_figure.svg
+Related interactive model flow: https://allenai.org/blog/olmo3
+olmo3-model-flow.png is a 2000px-wide rendering of the original SVG, without content edits.
+
+tulu3-pipeline.png
+Source: Tulu 3: The next era in open post-training, Ai2, November 21, 2024.
+https://allenai.org/blog/tulu-3-technical
+Original asset: https://www.datocms-assets.com/64837/1732167081-tulu3_figure1_v2-001-1.png
+Section: Tulu 3 Recipe.
+
+tulu3-rlvr.jpg
+Source: Same Ai2 Tulu 3 technical blog.
+Original asset: https://www.datocms-assets.com/64837/1732203373-rlvrv4.jpg
+Section: New Methodology: Reinforcement Learning on Verifiable Rewards.

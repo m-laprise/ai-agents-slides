@@ -1,0 +1,18 @@
+HumanLayer context-engineering illustrations
+Retrieved and inspected: 2026-10-29
+Author: Dex Horthy / HumanLayer
+Article: https://www.humanlayer.dev/blog/advanced-context-engineering
+Figures reproduced without content changes. Original attribution and rights remain with HumanLayer.
+The separate 12-Factor Agents repository license is not asserted to cover these blog assets.
+
+File: humanlayer-intentional-compaction.png
+Source: https://www.humanlayer.dev/blog/advanced-context-engineering/intentional-compaction.png
+SHA256: 6d14c3cdb1375dcb3fb3acef85313c12be7c28f73d4937c44e62eaef2e0a005c
+
+File: humanlayer-sub-agents.png
+Source: https://www.humanlayer.dev/blog/advanced-context-engineering/sub-agents.png
+SHA256: 41878a4e5efe4f734577d638d1c5c88c9d7da8317bd2bf960e8e216be3c254a2
+
+File: humanlayer-workflow.png
+Source: https://www.humanlayer.dev/blog/advanced-context-engineering/workflow.png
+SHA256: 85353dbd703f7fe619da4cf3273c546bf5ff409698ce62b52f7a46aa5fd34207

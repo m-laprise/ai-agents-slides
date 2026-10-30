@@ -1,0 +1,29 @@
+{
+  "name": "ai-agents-slides",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "stage:hugo": "node scripts/stage-hugo.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  },
+  "description": "AI agents for social science: Methods Camp 2026 slide deck",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-laprise/ai-agents-slides.git"
+  },
+  "homepage": "https://m-laprise.github.io/ai-agents/",
+  "author": "Marie-Lou Laprise",
+  "engines": {
+    "node": ">=18"
+  }
+}
