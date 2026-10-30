@@ -20,7 +20,7 @@ const bundle = await build({
 const css = await readFile(path.join(root, 'src/styles.css'), 'utf8');
 const js = bundle.outputFiles[0].text.replace(/<\/script/gi, '<\\/script');
 const html = `<!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>AI agents for social science · Methods Camp 2026</title><meta name="author" content="Marie-Lou Laprise"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><meta name="description" content="AI tools, workflows, and scientific judgment: a Methods Camp 2026 workshop."><style>${css}</style></head><body><div id="root"></div><noscript>This React presentation requires JavaScript.</noscript><script>${js}</script></body></html>`;
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>AI agents for social science · Methods Camp 2026</title><meta name="author" content="Marie-Lou Laprise"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><meta name="description" content="Slides for Methods Camp 2026: AI agents for social science."><style>${css}</style></head><body><div id="root"></div><noscript>This React presentation requires JavaScript.</noscript><script>${js}</script></body></html>`;
 await mkdir(path.join(root, 'dist'), { recursive: true });
 await writeFile(path.join(root, 'dist/index.html'), html);
 await mkdir(path.join(root, 'dist/legal'), { recursive: true });
